@@ -1,6 +1,6 @@
 variable "resource_name" {
   type =  string
-  default="samsunga133"
+  default="sams"
 }
 variable "location" {
   type = string
@@ -8,7 +8,7 @@ variable "location" {
 }
 variable "network_name" {
   type = string
-  default="samsunga133-vnet"
+  default="s-vnet"
 }
 variable "address_space" {
   type = list
