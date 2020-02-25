@@ -1,6 +1,6 @@
 variable "resource_name" {
   type =  string
-  default="sams-123123233"
+  default="sams"
 }
 variable "location" {
   type = string
@@ -8,9 +8,9 @@ variable "location" {
 }
 variable "network_name" {
   type = string
-  default="sdssssssssss-vnet"
+  default="s-vnet"
 }
 variable "address_space" {
   type = list
-  default=["10.0.0.0/16"]
+  default=["192.168.0.0/16"]
 }
